@@ -1,0 +1,25 @@
+﻿2023-03-03
+1545
+Started the Assignment 2 in class on the Lab computer.
+set up the ASP.NET MVC w/ core 3.1 (out-of-support)
+HTTP enabled, individual account authentication
+Reviewed the Areas folder, Controller, Model, View 
+
+1613- n Startup.cs online 33
+removed options for default identity:
+options => options.SignIn.RequireConfirmedAccount = true
+
+1614
+Tested app..ran it good.. Tested links
+Action Items:
+-Modify the navigation
+-update the copyright.. from 'static' to 'dynamic'
+
+1617
+Modified the default welcome message tested..
+review the rounte pattern in Startup.cs
+
+
+
+
+
