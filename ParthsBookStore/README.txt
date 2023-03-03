@@ -19,7 +19,8 @@ Action Items:
 Modified the default welcome message tested..
 review the rounte pattern in Startup.cs
 
+1619
+Confirmed the repo is bulid. Now I want to test it.
 
-
-
-
+1622
+Create README.md file in the github and pull it in the Visual Studio.
