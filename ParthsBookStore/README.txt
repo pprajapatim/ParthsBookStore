@@ -50,4 +50,23 @@ Added additional stylesheets and scripts from the css_js.txt file in _Layout.csh
 Added dropdown to the navbar..
 Change the dropdown name to Content Management.
 
+1823
+Added 3 new .Net core class library projects to the application.
+1- ParthsBooks.DataAccess
+2- ParthsBooks.Models
+3- ParthsBooks.Utility
+Then copy the Data folder and paste into the ParthsBooks.DataAccess project and also deleted from the original source.
+
+1835
+Install Microsoft.EntityFramework Core.Relational and Core.SqlServer Packages.
+And also deleted the Migration folder.
+
+1849
+Modify the namespace in ApplicationDbContext.cs
+And also Deleted class1.cs file from all projects.
+
+
+
+
+
 
