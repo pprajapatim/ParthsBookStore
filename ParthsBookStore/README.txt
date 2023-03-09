@@ -35,4 +35,19 @@ added botstrap.min.css to CSS folder
 Added code to the bootstrap/css/bootstrap.min.css...
 then try to run the app..
 
+1522
+change the nav class from navbar-light to navbar-dark and bg-white to bg-primary in _Layout.cshtml in views folder.
+
+1526
+Remove text-dark from line 23 in _Layout.cshtml.
+Then added aditional properties to the footer class.
+Remove text-dark in _LoginPartial.cshtml file and then run the app. 
+
+1533
+Added additional stylesheets and scripts from the css_js.txt file in _Layout.cshtml file. 
+
+1543
+Added dropdown to the navbar..
+Change the dropdown name to Content Management.
+
 
