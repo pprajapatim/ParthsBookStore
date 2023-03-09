@@ -24,3 +24,15 @@ Confirmed the repo is bulid. Now I want to test it.
 
 1622
 Create README.md file in the github and pull it in the Visual Studio.
+
+20203-03-09
+1432
+Edited bootstrape_bk.css for backup purpose..
+selected theme from bootswatch 
+added botstrap.min.css to CSS folder
+
+1437
+Added code to the bootstrap/css/bootstrap.min.css...
+then try to run the app..
+
+
