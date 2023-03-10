@@ -10,11 +10,20 @@
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.27" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.27" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.27" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\ParthsBooks.DataAccess\ParthsBooks.DataAccess.csproj" />
     <ProjectReference Include="..\ParthsBooks.Models\ParthsBooks.Models.csproj" />
+    <ProjectReference Include="..\ParthsBooks.Utility\ParthsBooks.Utility.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Customer\Controllers\" />
+    <Folder Include="Areas\Customer\Data\" />
+    <Folder Include="Areas\Customer\Models\" />
+    <Folder Include="Areas\Customer\Views\" />
   </ItemGroup>
 
 </Project>

@@ -9,8 +9,9 @@ using System.Threading.Tasks;
 using ParthsBookStore.Models.ViewModels;
 
 
-namespace ParthsBookStore.Controllers
+namespace ParthsBookStore.Area.Customer.Controllers
 {
+    [Area("Customer")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

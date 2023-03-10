@@ -28,7 +28,7 @@ Create README.md file in the github and pull it in the Visual Studio.
 20203-03-09
 1432
 Edited bootstrape_bk.css for backup purpose..
-selected theme from bootswatch 
+selected theme from bootswatch and the theme is Quartz.
 added botstrap.min.css to CSS folder
 
 1437
@@ -79,6 +79,15 @@ Getting an error while running the application.
 1509
 Added Identity.Entity nuget package
 Thern try to build the projects but got an error that choosen wrong version of 3.1.32 then I updated the version to 3.1.27.
+Then rebuild the project without any errors.
+
+1536
+Created SD.cs class in the ParthsBooks.Utility.
+Thern added project reference of Utility in ParthBooksStore project and project reference of Utility and Models in ParthsBooks.DataAccess project.
+
+
+
+
 
 
 
