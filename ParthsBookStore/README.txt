@@ -65,6 +65,15 @@ And also deleted the Migration folder.
 Modify the namespace in ApplicationDbContext.cs
 And also Deleted class1.cs file from all projects.
 
+1855
+Moved Models folder into ParthsBooks.Models
+Added project reference in .DataAccess and .Models project
+Rename the Models folder to ViewModels and also change the namespace to .Models.ViewModels
+
+1952
+Modify Startup.cs file and run the application to review errors. 
+Changed the reference in Error.cshtml to .Models.ViewModels.ErrorViewModels and tested the application.
+Getting an error while running the application. 
 
 
 
