@@ -75,6 +75,12 @@ Modify Startup.cs file and run the application to review errors.
 Changed the reference in Error.cshtml to .Models.ViewModels.ErrorViewModels and tested the application.
 Getting an error while running the application. 
 
+2023-03-10
+1509
+Added Identity.Entity nuget package
+Thern try to build the projects but got an error that choosen wrong version of 3.1.32 then I updated the version to 3.1.27.
+
+
 
 
 
