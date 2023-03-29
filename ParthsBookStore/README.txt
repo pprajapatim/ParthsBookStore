@@ -101,10 +101,15 @@ ERROR:"The constraint reference 'Customer' could not be resolved to a type. Regi
 
 1848
 Copy and paste 2 files _Viewmports.cshtml and _ViewStart.cshtml from views to area->customer folder.
+
 1856
 moddify the path in _ViewStart.cshtml file
 then run the app and it works perfectly without error.
 
+1910
+Added Admin area to Areas
+added the view files and deleted the Data, Models and Controllers folder.
+and completely finished the Part-1
 
 
 
