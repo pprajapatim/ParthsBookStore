@@ -65,7 +65,7 @@ namespace ParthsBookStore
                 endpoints.MapControllerRoute(
                     name: "default",
                                 // Here is the default route pattern.
-                                pattern: "{area:Customer}/{controller=Home}/{action=Index}/{id?}");
+                                pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }

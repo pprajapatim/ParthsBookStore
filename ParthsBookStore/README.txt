@@ -85,6 +85,26 @@ Then rebuild the project without any errors.
 Created SD.cs class in the ParthsBooks.Utility.
 Thern added project reference of Utility in ParthBooksStore project and project reference of Utility and Models in ParthsBooks.DataAccess project.
 
+2023-03-29
+1820
+Changed the class to public static class in SD.CS file.
+
+1823
+Added Customer to the Areas file.
+Also change the routes in ScaffoldingReadMe.txt.
+
+1828
+then move the HomeController.cs from controller to area->customer->Controller folder.
+After that move the home folder into views folder.
+then run the application and got an error.
+ERROR:"The constraint reference 'Customer' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'."
+
+1848
+Copy and paste 2 files _Viewmports.cshtml and _ViewStart.cshtml from views to area->customer folder.
+1856
+moddify the path in _ViewStart.cshtml file
+then run the app and it works perfectly without error.
+
 
 
 

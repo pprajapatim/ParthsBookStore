@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ParthsBooks.Utility
 {
-    class SD
+    public static class SD
     {
     }
 }

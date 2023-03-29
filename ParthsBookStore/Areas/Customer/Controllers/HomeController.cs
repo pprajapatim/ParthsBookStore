@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using ParthsBookStore.Models.ViewModels;
 
 
-namespace ParthsBookStore.Area.Customer.Controllers
+namespace ParthsBookStore.Areas.Customer.Controllers
 {
     [Area("Customer")]
     public class HomeController : Controller
