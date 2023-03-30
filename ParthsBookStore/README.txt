@@ -139,6 +139,31 @@ Re run the migration command add-migration AddCategoryToDb and got an error (The
 Again and again got the same error.
 then solve the duplication error and also write given migration command in PM consolw and also the command of update-database 
 and got the Category table in SQl SOE.
+1715
+Make Repository folder in .DataAccess project and make new IRepository folder into Repository.
+then create and modify the Irepository.cs as said by the given code so that we can do all CRUD operation.
+
+1741
+Then write the given code to the IRepository and modified it.
+ 1745 
+ then added (using ParthsBooks.DataAccess.Repository.IRepository;) and implement interface.
+ After that modify the code with given code to create constructors and dependency injection. 
+ and added (using ParthsBookStore.DataAccess.Data; using Microsoft.EntityFrameworkCore;)
+
+ 1820
+ Copy and paste the Repository.cs file from Assignment2 folder.
+and then also created two file CategoryRepository.cs interface in Repository folder
+and ICategoryRepository.cs interface in IRepository.
+
+1838
+Then Did the necessary changes in the CategoryRepository.cs.
+Then modified ICategoryRepository.cs.
+
+1857
+Then Implement the interface to update in  CategoryRepository.cs 
+and also modified the CategoryRepository.cs file.
+build the app and it works properlly.
+
 
 
 
