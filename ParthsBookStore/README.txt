@@ -112,6 +112,34 @@ added the view files and deleted the Data, Models and Controllers folder.
 and completely finished the Part-1
 
 
+2023-03-30
+PART-2
+Build the application and there were no errors.
+change the database name in appsettings.json file.
+
+1401
+use Nuget Package Manager Console to add migration and also then again added migration after selecting .DataAccess project and it works properly.
+file name : 20230330180039_addDefaultIdentityMigration.cs added in the README file.
+
+1407
+Then reviewd the file.
+After that in the PM console update the database by using update-database.
+Review the updated database in the SQL Server Object Explorer then run the application and it work without any error.
+
+1422
+Add new class file Catogery.cs into .Models project
+then write the given code to Category.cs file and write the command add-migration AddCategoryToDb
+in PM console in ParthBooksStore but did not work then
+Change the project to .DataAccess and write given command again in PM console and it works.
+1430
+Updated the ApplicationDbContext.cs file.
+
+1435
+Re run the migration command add-migration AddCategoryToDb and got an error (The name 'AddCategoryToDb' is used by an existing migration.)
+Again and again got the same error.
+then solve the duplication error and also write given migration command in PM consolw and also the command of update-database 
+and got the Category table in SQl SOE.
+
 
 
 
