@@ -205,6 +205,43 @@ Run the app and work perfectelly as shown.
 
 Then did necesarry changes in dropdown in _Layout.cshtml and run the app again.
 
+2350
+Edited the Index.cshtml and run the app.
+Added category.js file into wwwroot->js folder.
+
+2023-03-31
+
+in Index.cshtml @section call to the category.js
+
+0014
+Upsert action code is wriiten into CategoryController.cs file to activate edit and delete buttons.
+0030
+make Upsert.cshtml  in Category folder.
+
+0045
+created partial view (_CreateAndBackToListButton.cshtml)
+created another partial view (_EditAndBackToListButton.cshtml)
+0105
+Updated Upsert.cshtml file.
+also add asp-action to the index.cshtml.
+Modify the Upsert.cshtml by using @title and run the app.
+then add @section into the Upsert.cshtml.
+
+0130
+Added void Save() method to the IUnitOfWork interface.
+Remove  _db.SaveChanges() method from CategoryRepository.cs
+
+edited categooryController.cs file.
+0216
+Added onclick=Delete("/Admin/Category/Delete/${data}") into category.js
+Add the delete(url) function code to category.js
+
+
+
+
+
+
+
 
 
 
