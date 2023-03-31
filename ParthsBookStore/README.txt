@@ -163,6 +163,32 @@ Then modified ICategoryRepository.cs.
 Then Implement the interface to update in  CategoryRepository.cs 
 and also modified the CategoryRepository.cs file.
 build the app and it works properlly.
+then push commits to the github.
+
+1912
+Then created ISP_Call.cs interface into the IRepository and also modified ISP_Call.cs.
+1930
+ISP_Call.cs file is updated.
+
+1935
+Added SP_Call.cs file into Repository folder.
+then modified SP_Call.cs. 
+
+1955
+Write given code into SP_Call.cs and modified it.
+
+2015
+Added UnitOfWork.cs interface in Irepository folder.
+then modified the UnitOfWork.cs.
+
+2020
+Then implemented UnitOfWork into repository folder.
+then modified UnitOfWork.cs in Repository folder.
+
+2250
+added UnitOfWork and IUnitOfWork in startup.cs file.
+commit to the github.
+
 
 
 
