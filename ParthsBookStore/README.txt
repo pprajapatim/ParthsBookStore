@@ -188,6 +188,22 @@ then modified UnitOfWork.cs in Repository folder.
 2250
 added UnitOfWork and IUnitOfWork in startup.cs file.
 commit to the github.
+then build the app and work without error
+
+PART-3
+2301
+Create Controller folder in Area->Admin and also created CategoryController.cs in controller folder.
+then modify the  CategoryController.cs with the given code.
+
+2314
+Add Category folder into Area->Views.
+Then created index.cshtml into Category folder and write the given code from View.txt folder.
+then save and run the app.
+2330
+_Layout.cshtml is updated.
+Run the app and work perfectelly as shown.
+
+Then did necesarry changes in dropdown in _Layout.cshtml and run the app again.
 
 
 
