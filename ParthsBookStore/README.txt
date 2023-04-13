@@ -237,6 +237,40 @@ Added onclick=Delete("/Admin/Category/Delete/${data}") into category.js
 Add the delete(url) function code to category.js
 
 
+13/04/2023
+
+PART-3
+1530
+Created CoverType.cs file into model.
+And also added ID,NAme into CoverType model.
+
+1542
+Did migration operation through PM console and 
+added CoverTypes just like catagories into ApplicationDbContext.cs.
+
+1600
+CoverType find in sql Database table.
+Created ICoverTypeRepository in IRepository and CoverTypeRepository in Repositoryfolder.
+
+1615
+Updated ICoverTypeRepository and CoverTypeRepository.
+This is the name of the migration file (20230413195455_AddCoverTypeToDb.cs).
+Also Updated IUnitOfWork.cs and UnitOfWork.cs.
+
+1630
+Added CovertypeController.cs into Controller folder in ParthBookStore.
+Created CoverType folder into View folder into Area->Admin->Views.
+Also created CoverType.js into wwwroot->js.
+
+1655
+Run the Application and it works without any error.
+The Delete is not working while runnig the App.
+
+
+
+
+
+
 
 
 
