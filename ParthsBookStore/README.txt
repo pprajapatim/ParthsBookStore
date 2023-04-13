@@ -266,6 +266,24 @@ Also created CoverType.js into wwwroot->js.
 Run the Application and it works without any error.
 The Delete is not working while runnig the App.
 
+1725
+Created Product.cs into ParthsBooks.Model.
+And Updated this product.cs As given in the pdf.
+1738
+Added (public DbSet<CoverType> Products { get; set; }) into ApplicationDbContext.cs file.
+
+1745
+Did Migration into PM console and also updated the database.
+The file created after migration is : (20230413214214_AddProductToDb.cs).
+
+Then Make title ,ISBN and Author required.
+Perform migration operation of Add-migration AddValidationToProduct and also updated
+the datatbase with update-database operation.
+
+1755
+Added ProductRepository class to Repository and IProductRepository interface into IRepository folder.
+
+
 
 
 
