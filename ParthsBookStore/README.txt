@@ -283,6 +283,10 @@ the datatbase with update-database operation.
 1755
 Added ProductRepository class to Repository and IProductRepository interface into IRepository folder.
 
+1900
+updated UnitofWork And IUnitOfWork with product.
+Then build the application and there were no errors.
+
 
 
 
