@@ -28,5 +28,6 @@ namespace ParthsBooks.Models
         public int CoverTypeId { get; set; } // foreign key reference
         [ForeignKey("CategoryId")]
         public CoverType CoverType { get; set; }
+        
     }
 }

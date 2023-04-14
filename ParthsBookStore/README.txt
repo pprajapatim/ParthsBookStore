@@ -304,6 +304,20 @@ Modifed the _Layout.cshtml file with product link.
 2048
 Run the application it works but it gives Exception.
 
+2055
+Created the Upsert.cshtml in ParthsBooksStore->Areas->Admin->Product and modified this file with given code.
+
+2010
+Created account in tiny.clound
+then used my API as suggested.
+Then modifies the upsert.cshtml.
+
+2132
+Added new folder images into wwwroot and another products folder into images folder.
+then uncommented the code into ProductController.cs
+Modified the ProductController.cs.
+Run the application and still got the exception.
+
 
 
 
