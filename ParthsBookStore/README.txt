@@ -287,7 +287,22 @@ Added ProductRepository class to Repository and IProductRepository interface int
 updated UnitofWork And IUnitOfWork with product.
 Then build the application and there were no errors.
 
+1910
+Created and updated the ProductController.cs into Area->Admin->Controllers.
 
+1930
+Created ProductVM.cs into ViewModels.
+Modified the ProductController.cs file.
+
+2001
+Commented the Upsert method and CALLS The API CALL.
+
+2015
+Updated the product.js file just like  category.js and also updated index.cshtml file of the product.
+Modifed the _Layout.cshtml file with product link.
+
+2048
+Run the application it works but it gives Exception.
 
 
 
