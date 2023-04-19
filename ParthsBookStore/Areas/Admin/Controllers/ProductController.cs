@@ -82,10 +82,10 @@ namespace ParthsBookStore.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            var AllObj = _unitOfWork.Product.GetAll(includeProperties: "Category, CoverType");
-            return Json(new {data = AllObj});
+            var allObj = _unitOfWork.Product.GetAll(includeProperties: "Category,CoverType");
+            return Json(new {data = allObj});
         }
-        [HttpGet]
+        [HttpDelete]
         public IActionResult Delete(int id)
         {
             var objFromDb = _unitOfWork.Product.Get(id);

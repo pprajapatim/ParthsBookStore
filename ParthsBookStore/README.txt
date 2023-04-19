@@ -319,20 +319,8 @@ Modified the ProductController.cs.
 Run the application and still got the exception.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+19-04-2023
+1516
+Update the CSS Color of text in boostrap file so the text are visible. 
+Run the application after updating JS file and delete button is working successfully.
+After some changes in productController.cs file the app run properlly and the Exception is also solved.
