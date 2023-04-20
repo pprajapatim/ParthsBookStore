@@ -324,3 +324,16 @@ Run the application and still got the exception.
 Update the CSS Color of text in boostrap file so the text are visible. 
 Run the application after updating JS file and delete button is working successfully.
 After some changes in productController.cs file the app run properlly and the Exception is also solved.
+
+1650
+Modified ProductController.cs with upsert post method.
+Also modified Upsert.cshtml file in Areas->Admin->Views->Product.
+
+1658
+HomeController.cs file is modified by adding the product into the file.
+Modifed the Index.cshtml file in home folder, so that we can see the products on the Index Page.
+
+Run the application and got this error. DataTables warning: table id=tblData - Ajax error.
+solve the ajax error, then run the app and it work successfully
+Then add three products.
+these 3 products are visible on page without any errors.

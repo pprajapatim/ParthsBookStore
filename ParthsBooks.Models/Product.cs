@@ -19,6 +19,7 @@ namespace ParthsBooks.Models
         [Required]
         [Range(1, 10000)]
         public double ListPrice { get; set; }
+        public string price => ListPrice.ToString();
         public string ImageUrl { get; set; }
         [Required]
         public int CategoryId { get; set; } // foreign key reference
@@ -26,7 +27,7 @@ namespace ParthsBooks.Models
         public Category Category { get; set; }
         [Required]
         public int CoverTypeId { get; set; } // foreign key reference
-        [ForeignKey("CategoryId")]
+        [ForeignKey("CoverTypeId")]
         public CoverType CoverType { get; set; }
         
     }
